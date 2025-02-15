@@ -1,0 +1,71 @@
+# =============================================
+# General Development Files
+# =============================================
+.DS_Store
+
+.env
+
+
+# =============================================
+# Frontend (React.js)
+# =============================================
+frontend/node_modules/
+
+frontend/build/
+
+
+# =============================================
+# Backend (Node.js/Express)
+# =============================================
+backend/node_modules/
+backend/package-lock.json
+
+
+backend/.env
+
+# =============================================
+# Smart Contracts (Hardhat)
+# =============================================
+smart-contracts/artifacts/
+smart-contracts/cache/
+smart-contracts/typechain-types/
+smart-contracts/coverage.json
+smart-contracts/coverage/
+smart-contracts/.env
+
+# =============================================
+# AI Integration (Python)
+# =============================================
+ai/venv/
+
+ai/__pycache__/
+
+
+# =============================================
+# Dependency Directories
+# =============================================
+node_modules/
+
+
+# =============================================
+# Build Files
+# =============================================
+dist/
+build/
+out/
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# =============================================
+# Database Files
+# =============================================
+*.db
+
+
+# =============================================
+# Certificates/Keys
+# =============================================
+*.key
